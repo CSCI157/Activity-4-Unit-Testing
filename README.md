@@ -19,7 +19,7 @@ __str__(self) <br>
 email - string
 #### methods
 __init__(self, email) <br>
-    -verifies email is a proper email address
+    -verifies email is a proper email address. If the email is not valid raise InvalidEmail flag.
     -if email is a proper email address then self.email = email <br>
 __str__(self)
     returns self.email
@@ -29,7 +29,7 @@ __str__(self)
 social - string
 #### methods
 __init__(self, SS) <br>
-    - verifies that SS is a proper social security number
+    - verifies that SS is a proper social security . If not raises the InvalidSocial flag.
     - if SS is a proper social security number then self.social = SS <br>
 __str__(self) <br>
    returns self.social
