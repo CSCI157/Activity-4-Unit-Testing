@@ -1,12 +1,12 @@
-### Activity-4-Unit-Testing
+## Activity-4-Unit-Testing
 
-#### class User
-##### attributes
+### class User
+#### attributes
 username - string <br>
 email - class Email <br>
 SS# - class Social <br>
 hash - class Hash <br>
-##### methods
+#### methods
 __init__(self, username, email, SS, pass) <br>
 each of these four parameters are strings which will be passed to the corresponding classes as parameters
 check_password(passwrd) <br>
@@ -14,32 +14,32 @@ check_password(passwrd) <br>
 __str__(self) <br>
    return the username, email, and social strings in a nice readable way
    
-#### class Email
-##### attributes
+### class Email
+#### attributes
 email - string
-##### methods
+#### methods
 __init__(self, email) <br>
     -verifies email is a proper email address
     -if email is a proper email address then self.email = email <br>
 __str__(self)
     returns self.email
  
-#### class SS
-##### attributes
+### class SS
+#### attributes
 social - string
-##### methods
+#### methods
 __init__(self, SS) <br>
     - verifies that SS is a proper social security number
     - if SS is a proper social security number then self.social = SS <br>
 __str__(self) <br>
    returns self.social
 
-#### class Hash * - see below for a definition of hashing
-##### exceptions
+### class Hash * - see below for a definition of hashing
+#### exceptions
 InvalidPassword
-##### attributes
+#### attributes
 hash - string
-##### methods
+#### methods
 __init__(self, passwrd) <br>
     - verifies that the password is of sufficient length, if it is not then init raises InvalidPassword.
     - if the password is of sufficient length then a hash is created for the password and stored in self.hash.
@@ -47,13 +47,13 @@ __init__(self, passwrd) <br>
 __eq__(self, pass) <br>
     - pass is a string. __eq__ will check that pass generates the same hash as self.hash, making the passwords equal.
     
-### Unit Testing
+## Unit Testing
 You will be responsible for creating the User class. I will provide the  Email, SS, and Hash classes. You are responsible for the
 unit testing of all of these classes. You will test all of the classes in one unit test. Make sure to test the email, SS, and 
 Hash classes thoroughly. How you choose to test is going to be a large part of the grade for this assignment. I will guarantee 
 that the first iteration of the classes that I send you will NOT work properly, your unit testing should show that.
 
-### Submission
+## Submission
 When you are ready, create a repository on github for this assignment with your code for the User class. Send me a link. I will fork the assignment, add my code, and
 create a pull request. Then you can get my code, test it, and respond to my pull request with comments. After communicating by 
 github for a while, we should have a full working version of the program.
