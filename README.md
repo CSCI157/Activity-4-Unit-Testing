@@ -19,7 +19,7 @@ str(self) <br>
 email - string
 #### methods
 init(self, email) <br>
-    -verifies email is a proper email address. If the email is not valid raise InvalidEmail flag.
+    -verifies email is a proper email address. If the email is not valid raise InvalidEmail flag. <br>
     -if email is a proper email address then self.email = email <br>
 str(self)
     returns self.email
