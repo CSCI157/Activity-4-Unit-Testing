@@ -29,7 +29,7 @@ str(self)
 social - string
 #### methods
 init(self, SS) <br>
-    - verifies that SS is a proper social security . If not raises the InvalidSocial flag.
+    - verifies that SS is a proper social security . If not raises the InvalidSocial flag.<br>
     - if SS is a proper social security number then self.social = SS <br>
 str(self) <br>
    returns self.social
@@ -41,8 +41,8 @@ InvalidPassword
 hash - string
 #### methods
 init(self, passwrd) <br>
-    - verifies that the password is of sufficient length, if it is not then init raises InvalidPassword.
-    - if the password is of sufficient length then a hash is created for the password and stored in self.hash.
+    - verifies that the password is of sufficient length, if it is not then init raises InvalidPassword.<br>
+    - if the password is of sufficient length then a hash is created for the password and stored in self.hash.<br>
     - the hash should be long, complicated, and for any two passwords that are the same, the same hash should be generated. <br>
 eq(self, pass) <br>
     - pass is a string. __eq__ will check that pass generates the same hash as self.hash, making the passwords equal.
