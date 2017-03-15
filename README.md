@@ -50,9 +50,13 @@ eq(self, pass) <br>
 ## Unit Testing
 You will be responsible for creating the User class. I will provide the  Email, SS, and Hash classes. You are responsible for the unit testing of all of these classes. You will test all of the classes in one unit test. Make sure to test the email, SS, and Hash classes thoroughly. How you choose to test is going to be a large part of the grade for this assignment. I will guarantee that the first iteration of the classes that I send you will NOT work properly, your unit testing should show that.
 
-Valid Social Security numbers are defined here: https://github.com/CSCI156/CSCI156-ExceptionHandling <br>
+Valid Social Security numbers are defined here: https://github.com/CSCI156/CSCI156-ExceptionHandling. This should give you an idea of the types of unit tests that you need to run.<br>
 
-
+For the purposes of this assignment, a valid email address will consist of the following:
+a local part that must begin with a letter, followed by a sequence of numbers and/or letters. No punctuation, special symbols, etc.
+Then a single @ symbol
+Then a domain name which has the same rules as the local part above but it may include "."'s.
+The final "." must be followed by "edu", "com", "biz", or "gov".
 
 ## Submission
 When you are ready, create a repository on github for this assignment with your code for the User class. Send me a link. I will fork the assignment, add my code, and create a pull request. Then you can get my code, test it, and respond to my pull request with comments. After communicating by github for a while, we should have a full working version of the program.
