@@ -48,15 +48,14 @@ eq(self, pass) <br>
     - pass is a string. __eq__ will check that pass generates the same hash as self.hash, making the passwords equal.
     
 ## Unit Testing
-You will be responsible for creating the User class. I will provide the  Email, SS, and Hash classes. You are responsible for the
-unit testing of all of these classes. You will test all of the classes in one unit test. Make sure to test the email, SS, and 
-Hash classes thoroughly. How you choose to test is going to be a large part of the grade for this assignment. I will guarantee 
-that the first iteration of the classes that I send you will NOT work properly, your unit testing should show that.
+You will be responsible for creating the User class. I will provide the  Email, SS, and Hash classes. You are responsible for the unit testing of all of these classes. You will test all of the classes in one unit test. Make sure to test the email, SS, and Hash classes thoroughly. How you choose to test is going to be a large part of the grade for this assignment. I will guarantee that the first iteration of the classes that I send you will NOT work properly, your unit testing should show that.
+
+Valid Social Security numbers are defined here: https://github.com/CSCI156/CSCI156-ExceptionHandling <br>
+
+
 
 ## Submission
-When you are ready, create a repository on github for this assignment with your code for the User class. Send me a link. I will fork the assignment, add my code, and
-create a pull request. Then you can get my code, test it, and respond to my pull request with comments. After communicating by 
-github for a while, we should have a full working version of the program.
+When you are ready, create a repository on github for this assignment with your code for the User class. Send me a link. I will fork the assignment, add my code, and create a pull request. Then you can get my code, test it, and respond to my pull request with comments. After communicating by github for a while, we should have a full working version of the program.
        
 * Hashing
 One way of securely storing a password is to not actually store the password, but a one way representation of the password called a 
