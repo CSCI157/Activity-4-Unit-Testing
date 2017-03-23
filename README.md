@@ -53,22 +53,17 @@ You will be responsible for creating the User class. I will provide the  Email, 
 Valid Social Security numbers are defined here: https://github.com/CSCI156/CSCI156-ExceptionHandling. This should give you an idea of the types of unit tests that you need to run.<br>
 
 For the purposes of this assignment, a valid email address will consist of the following:
-a local part that must begin with a letter, followed by a sequence of numbers and/or letters. No punctuation, special symbols, etc.
-Then a single @ symbol
-Then a domain name which has the same rules as the local part above but it may include "."'s.
-The final "." must be followed by "edu", "com", "biz", or "gov".
+a local part that must begin with a letter, followed by a sequence of numbers and/or letters. No punctuation, special symbols, etc. Then a single @ symbol Then a domain name which has the same rules as the local part above but it may include "."'s.
+The final "." must be followed by "edu", "com", "biz", or "gov", and those should be the final characters in the email address.
 
 ## Submission
 When you are ready, create a repository on github for this assignment with your code for the User class. Send me a link. I will fork the assignment, add my code, and create a pull request. Then you can get my code, test it, and respond to my pull request with comments. After communicating by github for a while, we should have a full working version of the program.
        
 * Hashing
-One way of securely storing a password is to not actually store the password, but a one way representation of the password called a 
-hash. The hash is generally computed from the password using a rather complicated mathematical formula. The formula is designed so
-that
+One way of securely storing a password is to not actually store the password, but a one way representation of the password called a hash. The hash is generally computed from the password using a rather complicated mathematical formula. The formula is designed so that
 1. The resulting hash is long, ie not easily guessed.
 2. Is not reversible. So if you know the hash there is no way to get back to the password. One side effect of this is that it is
-possible for two different passwords to generate the same hash, but the odds are very slim. But, it is possible someone could use
-an improper password to login to an account protected by a hash.
+possible for two different passwords to generate the same hash, but the odds are very slim. But, it is possible someone could use an improper password to login to an account protected by a hash.
 3. If someone discovers the hash it does them no good.
 
 Let's look at an example. Suppose I have a password of Bob. When the password is set to the hash object it generates a hash of 
