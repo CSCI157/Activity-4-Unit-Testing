@@ -53,8 +53,8 @@ You will be responsible for creating the User class. I will provide the  Email, 
 Valid Social Security numbers are defined here: https://github.com/CSCI156/CSCI156-ExceptionHandling. This should give you an idea of the types of unit tests that you need to run.<br>
 
 For the purposes of this assignment, a valid email address will consist of the following:
-a local part that must begin with a letter, followed by a sequence of numbers and/or letters. No punctuation, special symbols, etc. Then a single @ symbol Then a domain name which has the same rules as the local part above but it may include "."'s.
-The final "." must be followed by "edu", "com", "biz", or "gov", and those should be the final characters in the email address.
+a local part that must begin with a letter, followed by a sequence of numbers and/or letters. No punctuation, special symbols, etc. Then a single @ symbol. Then a domain name which has the same rules as the local part above but it may include "."'s.
+The final "." must be followed by "edu", "com", "biz", or "gov", and those should be the final characters in the email address. The local part and domain name must have at least one character.
 
 ## Submission
 When you are ready, create a repository on github for this assignment with your code for the User class. Send me a link. I will fork the assignment, add my code, and create a pull request. Then you can get my code, test it, and respond to my pull request with comments. After communicating by github for a while, we should have a full working version of the program.
